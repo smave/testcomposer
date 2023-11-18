@@ -26,5 +26,5 @@
             "name": "smave"
         }
     ],
-    "minimum-stability": "RC"
+    "minimum-stability": "dev"
 }
