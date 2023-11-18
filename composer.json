@@ -1,24 +1,14 @@
 {
-    "repositories": [
-        {
-            "description": "阿里云镜像",
-            "type": "composer",
-            "url": "https://mirrors.aliyun.com/composer/",
-            "canonical": false
-        }
-    ],
-
     "name": "smave/testcomposer",
-    "description": "this is test",
+    "description": "this is a test",
     "type": "project",
     "require": {
-        "monolog/monolog": "^3.5",
-        "nesbot/carbon": "^2.71"
+        "monolog/monolog": "3.x-dev"
     },
-    "license": "1.0",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Smave\\Program01\\": "src/"
+            "Smave\\Testcomposer\\": "src/"
         }
     },
     "authors": [
